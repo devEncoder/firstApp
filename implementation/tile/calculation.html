@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/calculation.css">
+    <link rel="icon" href="../../static/astro.png">
+    <script type="text/javascript" src="../script/calculation.js"></script>
+    <title>calculator</title>
+</head>
+
+<body>
+    <div class="loginbox">
+        <img src="../../static/calculator.png" class="astro">
+        <h1> calculator</h1>
+        <form>
+            <p> Amount </p>
+            <input type="text" id="borrowedCapital" placeholder="enter value" />
+            <p> Annual Rate</p>
+            <input type="text" id="annualRate" placeholder="enter rate" />
+            <p> Month Duration </p>
+            <input type="text" id="MonthDuration" placeholder="enter duration" />
+        </form>
+        <button class="bouton" value="Connexion" onclick="getCalculationValue()">Validation</button>
+        <hr>
+        <a href="../../index.html"> Home </a>
+
+        <p> monthly</p>
+        <div class="data" id="output"></div>
+
+    </div>
+</body>
+
+</html>

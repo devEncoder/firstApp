@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background: url(../../static/wind.JPG);
+    background: url(../../static/SkyBluebackground.png) no-repeat center center fixed;
     background-size:cover;
     background-position:center;
     font-family: sans-serif;
