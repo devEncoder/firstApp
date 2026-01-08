@@ -95,5 +95,13 @@ h1 {
     text-align: center;
     margin-top: 10px;
     font-family: math;
-    font-size: 26px;
+    font-size: 22px;
+}
+
+#output2 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: math;
+    font-size: 18px;
 }
